@@ -187,5 +187,6 @@
     <ul>
         <li><a href="https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/CloudWatch-Unified-Cross-Account.html?utm_source=chatgpt.com">CloudWatch cross-account observability</a></li>
         <li><a href="https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/CloudWatchLogs_Centralization.html?utm_source=chatgpt.com">Cross-account cross-Region log centralization</a></li>
+        <li><a href="https://aws.amazon.com/about-aws/whats-new/2025/11/cloudwatch-database-insights-cross-account-region-monitoring/?utm_source=chatgpt.com">CloudWatch Database Insights adds cross-account cross-region monitoring </a></li>
     </ul>
 </ul>
