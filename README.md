@@ -171,3 +171,21 @@
     <li>Scalable multi-account governance</li>
     <li>Infrastructure automation using AFT</li>
 </ul>
+<br>
+
+<h1>Services Cost</h1>
+
+<h3>CloudWatch</h3>
+<ul>
+    <li>If the requirement is central visibility without extra ingestion cost</li>
+    <ul><li>Use CloudWatch cross-account obsevability and shared dashboards</li></ul>
+    <li>If the requirement is central log repository for compliance or analytics</li>
+    <ul><li>Use the new log centralization feature, first copy is free, backups cost extra</li></ul>
+    <li>For raw archival or export</li>
+    <ul><li>Export to S3 or use Firehose, storage and delivery charges applied</li></ul>
+    <li>References</li>
+    <ul>
+        <li><a href="https://docs.aws.amazon.com/AmazonCloudWatch/latest/monitoring/CloudWatch-Unified-Cross-Account.html?utm_source=chatgpt.com">CloudWatch cross-account observability</a></li>
+        <li><a href="https://docs.aws.amazon.com/AmazonCloudWatch/latest/logs/CloudWatchLogs_Centralization.html?utm_source=chatgpt.com">Cross-account cross-Region log centralization</a></li>
+    </ul>
+</ul>
